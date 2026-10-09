@@ -1,0 +1,777 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>VOLL Business Week 2026</title>
+<meta name="description" content="Três noites de gestão de alto nível, exclusivas para franqueados VOLL. 16 a 18/11, online e ao vivo. Inscrições até 20/10.">
+<meta name="theme-color" content="#070302">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="pt_BR">
+<meta property="og:title" content="VOLL Business Week 2026">
+<meta property="og:description" content="Três noites de gestão de alto nível, exclusivas para franqueados VOLL. 16 a 18/11, online e ao vivo. Inscrições até 20/10.">
+<link rel="icon" type="image/png" href="assets/favicon.png">
+<link rel="apple-touch-icon" href="assets/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,300;1,400&family=Montserrat:wght@300;400;500;600;700&display=swap">
+<style>
+/* Layout: palco escuro de largura editorial; títulos em dupla (itálico serifado verde sobre caixa alta), listas com fio fino, um único acento verde. */
+:root{
+  --ink:#070302;        /* fundo principal */
+  --ink-2:#120d0b;      /* superfície elevada */
+  --ink-3:#1d1714;      /* linhas da pista, bordas fortes */
+  --cream:#fdf5e6;      /* texto principal */
+  --muted:#a39c92;      /* texto secundário (cinza quente derivado de #666666) */
+  --grey:#666666;       /* detalhes */
+  --green:#329980;      /* acento VOLL */
+  --green-hi:#3fb497;   /* hover do acento */
+  --line:rgba(253,245,230,.14);
+  --serif:"Cormorant Garamond","Apple Garamond",Garamond,"Times New Roman",serif;
+  --sans:"Montserrat","Helvetica Neue",Arial,sans-serif;
+  --wrap:1180px;
+  --r:28px;
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+html{scroll-behavior:smooth;padding-top:env(safe-area-inset-top,0px)}
+body{margin:0;background:var(--ink);color:var(--cream);font:300 16px/1.65 var(--sans);-webkit-font-smoothing:antialiased;overflow-x:hidden}
+img{max-width:100%;display:block}
+a{color:inherit}
+:focus-visible{outline:2px solid var(--green);outline-offset:3px;border-radius:6px}
+.wrap{max-width:var(--wrap);margin:0 auto;padding-inline:clamp(16px,4vw,40px)}
+.sec{padding-block:clamp(72px,10vw,128px)}
+.rule{border:0;border-top:1px solid var(--line);margin:0}
+
+/* Títulos em dupla */
+.dt{margin:0 0 28px;line-height:.95;text-wrap:balance}
+.dt i{display:block;font:italic 300 clamp(40px,6vw,76px)/1 var(--serif);color:var(--green);letter-spacing:-.01em;margin-bottom:-.12em;position:relative;z-index:1}
+.dt b{display:block;font:500 clamp(30px,4.6vw,60px)/1 var(--sans);text-transform:uppercase;letter-spacing:.04em;color:var(--cream)}
+.dt.center{text-align:center}
+.eyebrow{font:600 12px/1.4 var(--sans);letter-spacing:.24em;text-transform:uppercase;color:var(--green)}
+.lead{font-size:clamp(17px,1.6vw,20px);max-width:62ch;color:var(--cream)}
+.muted{color:var(--muted)}
+
+/* Botões */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:12px;min-height:52px;padding:14px 30px;border-radius:999px;background:var(--green);color:var(--ink);font:600 13px/1 var(--sans);letter-spacing:.16em;text-transform:uppercase;text-decoration:none;border:0;cursor:pointer;transition:background .2s,transform .2s}
+.btn:hover{background:var(--green-hi);transform:translateY(-1px)}
+.btn svg{width:18px;height:18px}
+.btn.ghost{background:transparent;color:var(--cream);border:1px solid var(--line)}
+.btn.ghost:hover{border-color:var(--green);color:var(--green)}
+
+/* Barra de prazo */
+.bar{position:sticky;top:env(safe-area-inset-top,0px);z-index:50;background:rgba(7,3,2,.92);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+.bar .wrap{display:flex;align-items:center;justify-content:space-between;gap:16px;min-height:60px}
+.bar .logo{height:26px;width:auto}
+.bar .dl{display:flex;align-items:center;gap:14px;font:500 12px/1.2 var(--sans);letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
+.bar .btn{min-height:40px;padding:10px 20px;font-size:11px}
+.cd{display:flex;gap:6px;font-variant-numeric:tabular-nums}
+.cd span{display:flex;flex-direction:column;align-items:center;min-width:44px;padding:5px 6px;border:1px solid var(--line);border-radius:10px;color:var(--cream);font:600 16px/1 var(--sans);letter-spacing:0}
+.cd span small{font:500 9px/1.4 var(--sans);letter-spacing:.14em;color:var(--muted);margin-top:3px}
+
+/* Hero */
+.hero{position:relative;padding-block:clamp(48px,7vw,96px) clamp(64px,8vw,112px);overflow:hidden}
+.hero .wrap{display:grid;grid-template-columns:1.15fr .85fr;gap:clamp(24px,4vw,56px);align-items:center}
+.hero .logo-h{width:min(440px,100%);height:auto;margin:22px 0 34px}
+.hero h1{margin:0 0 24px;line-height:.98;text-wrap:balance}
+.hero h1 i{display:block;font:italic 300 clamp(44px,6.6vw,88px)/1 var(--serif);color:var(--green);margin-bottom:-.08em}
+.hero h1 b{display:block;font:500 clamp(28px,4vw,52px)/1.05 var(--sans);text-transform:uppercase;letter-spacing:.03em}
+.facts{display:flex;flex-wrap:wrap;gap:10px;margin:30px 0 34px;padding:0;list-style:none}
+.facts li{padding:9px 16px;border:1px solid var(--line);border-radius:999px;font:500 12px/1.2 var(--sans);letter-spacing:.14em;text-transform:uppercase}
+.cta-row{display:flex;flex-wrap:wrap;align-items:center;gap:18px 24px}
+.cta-row .note{font:400 14px/1.4 var(--sans);color:var(--muted)}
+.cta-row .note strong{color:var(--cream);font-weight:600}
+.track{width:100%;max-width:470px;justify-self:center;height:auto}
+.tagline{font:italic 300 clamp(26px,2.6vw,34px)/1.1 var(--serif);color:var(--cream);margin:0}
+
+/* Problema */
+.stats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:0;border-block:1px solid var(--line);margin:48px 0}
+.stat{padding:30px 24px 30px 0;min-width:0}
+.stat + .stat{padding-left:24px;border-left:1px solid var(--line)}
+.stat .n{font:italic 300 clamp(46px,5vw,68px)/1 var(--serif);color:var(--green);display:block;margin-bottom:12px}
+.stat .n.word{font:500 clamp(22px,2.2vw,28px)/1.2 var(--sans);letter-spacing:.08em;color:var(--green);padding-block:16px 6px}
+.stat p{margin:0;font-size:14.5px;color:var(--muted)}
+.split{display:grid;grid-template-columns:1fr 1fr;gap:clamp(32px,6vw,80px);align-items:start}
+.pains{list-style:none;margin:0;padding:0;border-top:1px solid var(--line)}
+.pains li{display:grid;grid-template-columns:auto 1fr;gap:18px;align-items:baseline;padding:18px 0;border-bottom:1px solid var(--line)}
+.pains li b{font:600 12px/1 var(--sans);letter-spacing:.2em;text-transform:uppercase;color:var(--green);min-width:96px}
+.verdict{font:italic 300 clamp(30px,3.4vw,44px)/1.1 var(--serif);margin:0 0 20px;text-wrap:balance}
+.verdict em{color:var(--green);font-style:italic}
+.src{font-size:12px;color:var(--grey);margin-top:14px}
+
+/* Virada */
+.turn{background:var(--ink-2);border-block:1px solid var(--line)}
+.turn .split{align-items:center}
+.vs{display:grid;grid-template-columns:1fr 1fr;border:1px solid var(--line);border-radius:var(--r);overflow:hidden}
+.vs div{padding:28px 26px;min-width:0}
+.vs div + div{border-left:1px solid var(--line);background:rgba(50,153,128,.08)}
+.vs h3{margin:0 0 14px;font:600 12px/1.3 var(--sans);letter-spacing:.2em;text-transform:uppercase;color:var(--muted)}
+.vs div + div h3{color:var(--green)}
+.vs ul{margin:0;padding:0;list-style:none;display:grid;gap:10px;font-size:15px}
+
+/* Oficinas */
+.shops{border:1px solid var(--line);border-radius:var(--r);overflow:hidden;margin-top:40px}
+.shop{display:grid;grid-template-columns:150px 54px 1fr auto;gap:22px;align-items:center;padding:22px 28px;border-top:1px solid var(--line);transition:background .25s}
+.shop:first-child{border-top:0}
+.shop:hover{background:rgba(50,153,128,.10)}
+.shop .k{font:600 12px/1.3 var(--sans);letter-spacing:.2em;text-transform:uppercase;color:var(--muted)}
+.tg{width:54px;height:30px;border-radius:999px;background:rgba(50,153,128,.25);position:relative}
+.tg::after{content:"";position:absolute;top:4px;right:4px;width:22px;height:22px;border-radius:50%;background:var(--cream)}
+.shop .what{font:500 clamp(17px,1.7vw,21px)/1.3 var(--sans);min-width:0}
+.shop .when{font:italic 400 18px/1.2 var(--serif);color:var(--green);white-space:nowrap}
+
+/* Programação */
+.tabs{display:flex;gap:8px;flex-wrap:wrap;margin:40px 0 0}
+.tab{flex:1 1 200px;text-align:left;padding:18px 22px;border-radius:20px 20px 0 0;border:1px solid var(--line);border-bottom:0;background:transparent;color:var(--muted);cursor:pointer;font:inherit}
+.tab b{display:block;font:600 12px/1.3 var(--sans);letter-spacing:.2em;text-transform:uppercase;margin-bottom:6px}
+.tab span{font:italic 400 22px/1.15 var(--serif)}
+.tab[aria-selected="true"]{background:var(--ink-2);color:var(--cream);border-color:var(--green)}
+.tab[aria-selected="true"] b{color:var(--green)}
+.night{border:1px solid var(--green);border-radius:0 0 var(--r) var(--r);background:var(--ink-2);padding:clamp(22px,3.4vw,40px);display:grid;grid-template-columns:1.4fr .9fr;gap:clamp(24px,4vw,48px)}
+.night h3{margin:0 0 6px;font:500 clamp(22px,2.4vw,30px)/1.2 var(--sans)}
+.night .sub{margin:0 0 24px;color:var(--muted)}
+.agenda{list-style:none;margin:0;padding:0}
+.agenda li{display:grid;grid-template-columns:62px 1fr;gap:16px;padding:14px 0;border-top:1px solid var(--line)}
+.agenda time{font:600 14px/1.5 var(--sans);color:var(--green);font-variant-numeric:tabular-nums}
+.agenda .who{display:block;font-size:13.5px;color:var(--muted);margin-top:2px}
+.side{display:grid;gap:14px;align-content:start}
+.box{border:1px solid var(--line);border-radius:20px;padding:18px 20px}
+.box h4{margin:0 0 8px;font:600 11px/1.3 var(--sans);letter-spacing:.22em;text-transform:uppercase;color:var(--green)}
+.box p{margin:0;font-size:15px}
+.box.prize{background:rgba(50,153,128,.12);border-color:rgba(50,153,128,.5)}
+
+/* Palestrantes */
+.speakers{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:0;border-top:1px solid var(--line);margin-top:44px}
+.sp{padding:26px 24px 28px 0;border-bottom:1px solid var(--line);min-width:0}
+.sp:not(:nth-child(3n+1)){padding-left:24px;border-left:1px solid var(--line)}
+.sp .night-tag{font:600 11px/1 var(--sans);letter-spacing:.2em;text-transform:uppercase;color:var(--green)}
+.sp h3{margin:12px 0 8px;font:italic 400 clamp(26px,2.6vw,34px)/1.05 var(--serif)}
+.sp p{margin:0;font-size:14.5px;color:var(--muted)}
+
+/* Palco digital */
+.stage{display:grid;grid-template-columns:.9fr 1.1fr;gap:clamp(28px,5vw,64px);align-items:center}
+.screen{aspect-ratio:16/10;max-width:100%;border-radius:22px;border:1px solid var(--line);background:var(--ink-2);padding:3%;display:grid;grid-template-columns:1.5fr 1fr;grid-template-rows:auto 1fr auto;gap:3%;box-shadow:0 40px 80px -40px rgba(50,153,128,.35)}
+.screen .top{grid-column:1/-1;display:flex;justify-content:space-between;align-items:center;font:600 clamp(7px,.8vw,10px)/1 var(--sans);letter-spacing:.16em;text-transform:uppercase;color:var(--muted)}
+.screen .top img{height:clamp(12px,1.5vw,20px);width:auto}
+.slide{border-radius:12px;background:var(--cream);color:var(--ink);padding:7%;display:flex;flex-direction:column;justify-content:center;min-width:0}
+.slide i{font:italic 300 clamp(14px,2vw,26px)/1 var(--serif);color:var(--green)}
+.slide b{font:600 clamp(9px,1.2vw,15px)/1.1 var(--sans);text-transform:uppercase;letter-spacing:.06em}
+.slide .bars{display:flex;align-items:flex-end;gap:5%;height:32%;margin-top:8%}
+.slide .bars span{flex:1;background:var(--green);border-radius:3px 3px 0 0}
+.cam{border-radius:12px;background:linear-gradient(160deg,#2a3a35,#121a17);position:relative;display:flex;flex-direction:column;justify-content:flex-end;padding:6%;min-width:0}
+.cam .person{position:absolute;left:50%;top:22%;width:38%;aspect-ratio:1;border-radius:50%;background:#3d4f49;transform:translateX(-50%)}
+.cam .person::after{content:"";position:absolute;left:-40%;top:118%;width:180%;height:90%;border-radius:50% 50% 0 0;background:#3d4f49}
+.cam .name{position:relative;background:var(--green);color:var(--ink);border-radius:6px;padding:4% 6%;font:600 clamp(6px,.75vw,10px)/1.3 var(--sans);letter-spacing:.06em}
+.screen .sbar{grid-column:1/-1;display:flex;gap:3%;align-items:center}
+.qr{width:clamp(22px,3.4vw,44px);aspect-ratio:1;border-radius:6px;background:
+  conic-gradient(var(--cream) 25%,var(--ink) 0 50%,var(--cream) 0 75%,var(--ink) 0) 0 0/33% 33%;border:3px solid var(--cream)}
+.sponsors{flex:1;height:clamp(14px,2vw,24px);border-radius:6px;border:1px dashed var(--line);font:600 clamp(6px,.7vw,9px)/1 var(--sans);letter-spacing:.16em;color:var(--grey);display:flex;align-items:center;justify-content:center;text-transform:uppercase}
+.tagchip{font:600 clamp(6px,.75vw,10px)/1 var(--sans);color:var(--green);letter-spacing:.06em}
+.feat{list-style:none;padding:0;margin:28px 0 0;display:grid;gap:0;border-top:1px solid var(--line)}
+.feat li{padding:16px 0;border-bottom:1px solid var(--line);display:grid;grid-template-columns:200px 1fr;gap:16px}
+.feat b{font:600 12px/1.5 var(--sans);letter-spacing:.18em;text-transform:uppercase;color:var(--green)}
+
+/* Kit */
+.kit{display:grid;grid-template-columns:1.25fr 1fr 1fr;grid-template-rows:auto auto;gap:16px;margin-top:44px}
+.kit figure{margin:0;border-radius:var(--r);overflow:hidden;position:relative;background:var(--ink-2);min-width:0}
+.kit img{width:100%;height:100%;object-fit:cover}
+.kit .big{grid-row:span 2}
+.kit .wide{grid-column:2/4;aspect-ratio:2/1}
+.kit .sq{aspect-ratio:1}
+.kit figcaption{position:absolute;left:14px;bottom:14px;padding:8px 14px;border-radius:999px;background:rgba(7,3,2,.82);font:600 11px/1 var(--sans);letter-spacing:.18em;text-transform:uppercase}
+
+/* Sorteio */
+.raffle{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin:44px 0 36px}
+.prize-card{border:1px solid var(--line);border-radius:var(--r);padding:30px 26px;min-width:0;display:flex;flex-direction:column;gap:10px}
+.prize-card .lbl{font:600 11px/1 var(--sans);letter-spacing:.22em;text-transform:uppercase;color:var(--muted)}
+.prize-card h3{margin:0;font:italic 400 clamp(28px,2.8vw,38px)/1.05 var(--serif);color:var(--cream)}
+.prize-card.hl{border-color:var(--green);background:rgba(50,153,128,.1)}
+.rules{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:0;border-top:1px solid var(--line);list-style:none;padding:0;margin:0;counter-reset:r}
+.rules li{padding:20px 20px 0 0;min-width:0;font-size:15px;counter-increment:r}
+.rules li::before{content:"0" counter(r);display:block;font:italic 300 30px/1 var(--serif);color:var(--green);margin-bottom:8px}
+.absent{margin:36px 0 0;font:500 clamp(18px,1.8vw,22px)/1.3 var(--sans);letter-spacing:.06em;text-transform:uppercase}
+
+/* Oferta */
+.offer{background:radial-gradient(1200px 500px at 50% 0%,rgba(50,153,128,.16),transparent 70%)}
+.plans{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px;max-width:960px;margin:44px auto 0}
+.plan{border:1px solid var(--line);border-radius:var(--r);padding:clamp(26px,3.4vw,40px);display:flex;flex-direction:column;gap:20px;position:relative;background:var(--ink);min-width:0}
+.plan.hl{border:1.5px solid var(--green);box-shadow:0 30px 70px -40px rgba(50,153,128,.6)}
+.plan .badge{position:absolute;top:-14px;left:28px;background:var(--green);color:var(--ink);padding:7px 14px;border-radius:999px;font:600 10.5px/1 var(--sans);letter-spacing:.18em;text-transform:uppercase}
+.plan h3{margin:0;font:600 13px/1.2 var(--sans);letter-spacing:.24em;text-transform:uppercase;color:var(--green)}
+.price{display:flex;align-items:baseline;gap:8px;font-variant-numeric:tabular-nums}
+.price small{font:500 18px/1 var(--sans);color:var(--muted)}
+.price strong{font:300 clamp(56px,6vw,76px)/1 var(--sans);letter-spacing:-.02em}
+.plan ul{list-style:none;margin:0;padding:0;display:grid;gap:12px;font-size:15px;flex:1}
+.plan li{display:grid;grid-template-columns:20px 1fr;gap:10px}
+.plan li svg{width:16px;height:16px;margin-top:4px;color:var(--green)}
+.plan li.off{color:var(--grey)}
+.plan .btn{width:100%}
+.js-buy[aria-disabled="true"]{opacity:.5;cursor:not-allowed;pointer-events:none}
+.fine{max-width:720px;margin:36px auto 0;text-align:center;color:var(--muted);font-size:15px}
+.offer .cd-big{display:flex;justify-content:center;gap:10px;margin-top:28px}
+.offer .cd-big span{min-width:74px;padding:12px 8px;font-size:30px;border-radius:16px}
+.offer .cd-big span small{font-size:10px}
+.close-line{text-align:center;margin-top:16px;font:600 12px/1.4 var(--sans);letter-spacing:.2em;text-transform:uppercase;color:var(--green)}
+
+/* FAQ */
+.faq{max-width:860px;margin:40px auto 0;border-top:1px solid var(--line)}
+.faq details{border-bottom:1px solid var(--line)}
+.faq summary{list-style:none;cursor:pointer;padding:22px 44px 22px 0;position:relative;font:500 clamp(16px,1.6vw,19px)/1.4 var(--sans)}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::after{content:"";position:absolute;right:6px;top:50%;width:12px;height:12px;border-right:1.5px solid var(--green);border-bottom:1.5px solid var(--green);transform:translateY(-70%) rotate(45deg);transition:transform .25s}
+.faq details[open] summary::after{transform:translateY(-30%) rotate(-135deg)}
+.faq details p{margin:0 0 22px;color:var(--muted);max-width:66ch}
+
+/* CTA final */
+.final{text-align:center;position:relative;overflow:hidden}
+.final .ring{position:absolute;left:50%;top:50%;width:min(720px,140vw);aspect-ratio:1;transform:translate(-50%,-50%);border-radius:50%;border:clamp(40px,7vw,90px) solid rgba(50,153,128,.10);pointer-events:none}
+.stage .dt i{font-size:clamp(38px,4.6vw,60px)}
+.final .dt i{font-size:clamp(56px,8vw,110px)}
+.final .dt b{font-size:clamp(36px,5.4vw,72px)}
+.final p{max-width:56ch;margin:0 auto 34px;font-size:clamp(17px,1.6vw,20px)}
+.final .wrap{position:relative}
+
+/* Rodapé */
+.foot{padding:0 clamp(12px,2vw,24px) clamp(12px,2vw,24px)}
+.foot-in{background:var(--green);color:var(--ink);border-radius:var(--r);padding:clamp(28px,4vw,48px);position:relative;overflow:hidden}
+.foot-grid{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:28px;position:relative;z-index:1}
+.foot-in h4{margin:0 0 10px;font:600 11px/1.3 var(--sans);letter-spacing:.22em;text-transform:uppercase}
+.foot-in p{margin:0;font-size:14.5px;font-weight:400}
+.foot-in .sig{font:italic 400 24px/1.2 var(--serif);margin-top:10px}
+.foot-in .mark{display:block;width:100%;height:auto;margin-top:36px;opacity:.16;filter:brightness(0)}
+.foot-in small{display:block;position:relative;z-index:1;margin-top:18px;font-size:12px;font-weight:500}
+
+/* Modal de compra */
+html:has(.buy[open]){overflow:hidden}
+.buy{width:min(720px,100% - 32px);height:min(860px,100dvh - 48px);max-width:none;max-height:none;padding:0;border:1px solid var(--line);border-radius:var(--r);background:var(--ink-2);color:var(--cream);overflow:hidden;flex-direction:column}
+.buy[open]{display:flex}
+.buy::backdrop{background:rgba(7,3,2,.78);backdrop-filter:blur(6px)}
+.buy-head{display:flex;align-items:center;gap:16px;padding:14px 18px;border-bottom:1px solid var(--line);flex:none}
+.buy-head img{height:22px;width:auto}
+.buy-head h2{margin:0 auto 0 0;font:600 12px/1.3 var(--sans);letter-spacing:.2em;text-transform:uppercase;color:var(--green)}
+.buy-head a{display:inline-flex;align-items:center;gap:8px;font:500 12px/1 var(--sans);letter-spacing:.08em;color:var(--muted);text-decoration:none;white-space:nowrap}
+.buy-head a:hover{color:var(--green)}
+.buy-head svg{width:16px;height:16px;flex:none}
+.buy-x{display:grid;place-items:center;width:40px;height:40px;flex:none;border-radius:50%;border:1px solid var(--line);background:transparent;color:var(--cream);cursor:pointer;transition:border-color .2s,color .2s}
+.buy-x:hover{border-color:var(--green);color:var(--green)}
+.buy iframe{flex:1;width:100%;min-height:0;border:0;background:#f1f5f9}
+
+/* CTA fixo no celular */
+.mobile-cta{display:none}
+
+/* Entrada suave */
+@media (prefers-reduced-motion:no-preference){
+  .rise{animation:rise .9s cubic-bezier(.2,.7,.2,1) both}
+  .rise.d1{animation-delay:.08s}.rise.d2{animation-delay:.16s}.rise.d3{animation-delay:.24s}.rise.d4{animation-delay:.32s}
+  @keyframes rise{from{opacity:.001;transform:translateY(16px)}to{opacity:1;transform:none}}
+  .track .lap{stroke-dasharray:1400;animation:draw 2.4s cubic-bezier(.4,0,.2,1) both}
+  .track .lap:nth-of-type(2){animation-delay:.12s}.track .lap:nth-of-type(3){animation-delay:.24s}.track .lap:nth-of-type(4){animation-delay:.36s}
+  @keyframes draw{from{stroke-dashoffset:1400}to{stroke-dashoffset:0}}
+}
+
+/* Responsivo */
+@media (max-width:980px){
+  .hero .wrap,.split,.stage,.night{grid-template-columns:1fr}
+  .track{max-width:340px;order:-1}
+  .stats{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .stat:nth-child(3){padding-left:0;border-left:0}
+  .stat:nth-child(n+3){border-top:1px solid var(--line)}
+  .speakers{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .sp:not(:nth-child(3n+1)){padding-left:0;border-left:0}
+  .sp:nth-child(even){padding-left:20px;border-left:1px solid var(--line)}
+  .rules{grid-template-columns:repeat(2,minmax(0,1fr));gap:0 20px}
+  .foot-grid{grid-template-columns:1fr 1fr}
+}
+@media (max-width:720px){
+  body{font-size:15.5px}
+  .bar .dl .lbl,.bar .btn{display:none}
+  .cd span{min-width:38px;font-size:14px}
+  .shop{grid-template-columns:1fr auto;gap:8px 16px;padding:20px}
+  .shop .k{grid-column:1/-1}
+  .shop .tg{display:none}
+  .vs{grid-template-columns:1fr}
+  .vs div + div{border-left:0;border-top:1px solid var(--line)}
+  .kit{grid-template-columns:1fr 1fr}
+  .kit .big{grid-row:auto;grid-column:1/-1;aspect-ratio:16/10}
+  .kit .wide{grid-column:1/-1}
+  .raffle,.plans{grid-template-columns:1fr}
+  .feat li{grid-template-columns:1fr;gap:4px}
+  .speakers{grid-template-columns:1fr}
+  .sp:nth-child(even){padding-left:0;border-left:0}
+  .foot-grid{grid-template-columns:1fr}
+  .tab{flex-basis:100%;border-radius:16px;border-bottom:1px solid var(--line)}
+  .tab[aria-selected="true"]{border-color:var(--green)}
+  .night{border-radius:var(--r);margin-top:8px}
+  .mobile-cta{display:flex;position:fixed;left:0;right:0;bottom:0;z-index:60;padding:10px 16px calc(10px + env(safe-area-inset-bottom,0px));background:rgba(7,3,2,.94);backdrop-filter:blur(10px);border-top:1px solid var(--line);gap:12px;align-items:center}
+  .mobile-cta .btn{flex:1;min-height:48px}
+  .mobile-cta .p{font:500 12px/1.3 var(--sans);color:var(--muted)}
+  .mobile-cta .p strong{display:block;color:var(--cream);font-size:15px}
+  .foot{padding-bottom:96px}
+  .buy{width:100vw;height:100dvh;border:0;border-radius:0}
+  .buy-head{gap:12px;padding:calc(10px + env(safe-area-inset-top,0px)) 14px 10px}
+  .buy-head img{display:none}
+  .buy-head a span{display:none}
+  .buy-head a{width:40px;height:40px;justify-content:center;border:1px solid var(--line);border-radius:50%}
+}
+</style>
+</head>
+<body>
+
+<!-- Barra de prazo -->
+<header class="bar">
+  <div class="wrap">
+    <img class="logo" src="assets/logo-h.webp" alt="VOLL Pilates Business Week 2026" width="900" height="178">
+    <div class="dl">
+      <span class="lbl" id="bar-label">Inscrições encerram em</span>
+      <div class="cd" data-countdown aria-live="off"></div>
+      <a class="btn" href="#oferta">Garantir minha vaga</a>
+    </div>
+  </div>
+</header>
+
+<main>
+<!-- Hero -->
+<section class="hero" id="topo">
+  <div class="wrap">
+    <div>
+      <div class="eyebrow rise">Exclusivo para franqueados VOLL</div>
+      <img class="logo-h rise d1" src="assets/logo-h.webp" alt="VOLL Pilates Business Week 2026" width="900" height="178">
+      <h1 class="rise d2"><i>O evento de gestão</i><b>do ano da rede VOLL</b></h1>
+      <p class="lead rise d3">Três noites para sair com a nova tabela de preços, o calendário de retenção, o plano de captação e o plano de 90 dias da sua unidade. Construídos ao vivo, com os seus números.</p>
+      <ul class="facts rise d3">
+        <li>16 a 18 de novembro</li>
+        <li>19h30 às 22h</li>
+        <li>Online e ao vivo</li>
+      </ul>
+      <div class="cta-row rise d4">
+        <a class="btn" href="#oferta">Garantir minha vaga
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+        <span class="note">A partir de <strong>R$ 209</strong> · inscrições até <strong>20/10</strong> · sem prorrogação</span>
+      </div>
+    </div>
+    <svg class="track" viewBox="0 0 440 480" role="img" aria-label="Pista de linhas concêntricas que se transformam em setas para cima, com o V da VOLL ao centro">
+      <g fill="none" stroke-width="18" stroke-linecap="round" stroke-linejoin="round">
+        <path class="lap" d="M384 52 V300 A164 164 0 1 1 220 136" stroke="#2c2522"/>
+        <path class="lap" d="M346 82 V300 A126 126 0 1 1 220 174" stroke="#2a2320"/>
+        <path class="lap" d="M308 112 V300 A88 88 0 1 1 220 212" stroke="#27201d"/>
+        <path d="M366 58 L384 36 L402 58" stroke="#2c2522"/>
+        <path d="M328 88 L346 66 L364 88" stroke="#2a2320"/>
+        <path d="M290 118 L308 96 L326 118" stroke="#27201d"/>
+      </g>
+      <circle cx="220" cy="300" r="58" fill="#329980"/>
+      <image href="assets/v.png" x="194" y="266" width="52" height="60"/>
+    </svg>
+  </div>
+</section>
+
+<hr class="rule">
+
+<!-- Problema -->
+<section class="sec" id="mercado">
+  <div class="wrap">
+    <div class="eyebrow">Leitura de mercado</div>
+    <h2 class="dt"><i>O meio-termo</i><b>vai perder</b></h2>
+    <p class="lead">O pilates cresceu, ficou disputado e se dividiu em dois. Quem não se diferencia passa a disputar preço com o estúdio vizinho e perde margem todo mês.</p>
+    <div class="stats">
+      <div class="stat"><span class="n">~300%</span><p>de crescimento do pilates no Brasil nos últimos 5 anos</p></div>
+      <div class="stat"><span class="n">2º</span><p>lugar entre as atividades físicas mais praticadas do país</p></div>
+      <div class="stat"><span class="n word">BIMODAL</span><p>o mercado se divide entre o low cost e a experiência premium</p></div>
+      <div class="stat"><span class="n word">IA</span><p>previsão de evasão é a principal aposta de retenção em 2026</p></div>
+    </div>
+    <div class="split">
+      <div>
+        <p class="verdict">Cada uma dessas dores custa dinheiro <em>todo mês</em>, enquanto ninguém mexe nela.</p>
+        <p class="muted">A VOLL Business Week ataca as quatro de frente, com os números da sua unidade na mesa.</p>
+        <p class="src">Fontes: ACSM Worldwide Survey 2026, HFA Global Report, Panorama Fitness 2026.</p>
+      </div>
+      <ul class="pains">
+        <li><b>Preço</b><span>Você cobra menos do que deveria e não reajusta há tempo demais.</span></li>
+        <li><b>Evasão</b><span>O aluno falta duas aulas, ninguém procura e ele cancela.</span></li>
+        <li><b>Captação</b><span>O lead não chega, ou chega e não fecha.</span></li>
+        <li><b>Equipe</b><span>Se o instrutor-chave sai, parte dos alunos vai junto.</span></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- Virada -->
+<section class="sec turn">
+  <div class="wrap split">
+    <div>
+      <div class="eyebrow">O formato</div>
+      <h2 class="dt"><i>Não é palestra.</i><b>É sala de decisão</b></h2>
+      <p class="lead">A rede trocou o encontro presencial por três noites de gestão pura. Cada noite termina com uma oficina que começa ao vivo e termina na sua unidade, com prazo e entrega no workbook.</p>
+      <p class="muted">Na semana seguinte, a sua unidade opera diferente. A de quem não foi continua igual.</p>
+    </div>
+    <div class="vs">
+      <div>
+        <h3>Quem fica de fora</h3>
+        <ul>
+          <li>Preço definido pelo vizinho</li>
+          <li>Aluno saindo sem aviso</li>
+          <li>Unidade refém de uma pessoa</li>
+          <li>2027 planejado no improviso</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Quem entra</h3>
+        <ul>
+          <li>Margem real por horário</li>
+          <li>Calendário de retenção pronto</li>
+          <li>Processo no lugar da dependência</li>
+          <li>Plano de 90 dias com 3 decisões</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Oficinas -->
+<section class="sec" id="oficinas">
+  <div class="wrap">
+    <div class="eyebrow">O que você leva para a unidade</div>
+    <h2 class="dt"><i>Você sai com</i><b>5 ferramentas prontas</b></h2>
+    <div class="shops">
+      <div class="shop"><span class="k">Oficina 1 · Preço</span><span class="tg" aria-hidden="true"></span><span class="what">Nova tabela de preços, com margem real por horário</span><span class="when">Noite 1</span></div>
+      <div class="shop"><span class="k">Oficina 2 · Retenção</span><span class="tg" aria-hidden="true"></span><span class="what">Mensagens padrão e calendário de relacionamento de 90 dias</span><span class="when">Noite 2</span></div>
+      <div class="shop"><span class="k">Oficina 3 · Captação</span><span class="tg" aria-hidden="true"></span><span class="what">Plano de captação de 90 dias e meta de conversão</span><span class="when">Até 18/11</span></div>
+      <div class="shop"><span class="k">Oficina 4 · Padrão</span><span class="tg" aria-hidden="true"></span><span class="what">Checklist: o que depende de pessoa e o que vira processo</span><span class="when">Noite 3</span></div>
+      <div class="shop"><span class="k">Oficina 5 · Plano</span><span class="tg" aria-hidden="true"></span><span class="what">SWOT, matriz de risco e as três decisões dos próximos 90 dias</span><span class="when">Noite 2</span></div>
+    </div>
+  </div>
+</section>
+
+<hr class="rule">
+
+<!-- Programação -->
+<section class="sec" id="programacao">
+  <div class="wrap">
+    <div class="eyebrow">Programação</div>
+    <h2 class="dt"><i>Três noites,</i><b>três entregas</b></h2>
+    <div class="tabs" role="tablist" aria-label="Noites do evento">
+      <button class="tab" role="tab" id="t1" aria-controls="n1" aria-selected="true"><b>Seg · 16/11</b><span>Mercado e Precificação</span></button>
+      <button class="tab" role="tab" id="t2" aria-controls="n2" aria-selected="false" tabindex="-1"><b>Ter · 17/11</b><span>Retenção e Captação</span></button>
+      <button class="tab" role="tab" id="t3" aria-controls="n3" aria-selected="false" tabindex="-1"><b>Qua · 18/11</b><span>O Padrão VOLL</span></button>
+    </div>
+
+    <div class="night" role="tabpanel" id="n1" aria-labelledby="t1">
+      <div>
+        <h3>O mercado mudou. O seu preço também precisa mudar.</h3>
+        <p class="sub">Objetivo: quebrar a crença de que o ticket é definido pelo estúdio vizinho.</p>
+        <ol class="agenda">
+          <li><time>19h30</time><div>Abertura institucional e regras da semana<span class="who">Diretoria de Franquias</span></div></li>
+          <li><time>19h40</time><div>O mercado de pilates em 2026: como se destacar<span class="who">Rafael Juliano e Henrique</span></div></li>
+          <li><time>20h15</time><div>Precificação sem medo: custo, margem real por horário e reajuste sem perder base<span class="who">Felipe Scher</span></div></li>
+          <li><time>21h00</time><div>Estado da rede: números, unidades destaque, mapa de expansão e VOLL Success<span class="who">Aline Monteiro</span></div></li>
+          <li><time>21h30</time><div>Oficina 1: Raio-X da unidade e nova tabela de preços<span class="who">Felipe Scher</span></div></li>
+          <li><time>21h50</time><div>Painel relâmpago: dois franqueados que reajustaram e cresceram<span class="who">Aline Monteiro</span></div></li>
+        </ol>
+      </div>
+      <div class="side">
+        <div class="box"><h4>Você sai com</h4><p>Nova tabela de preços rascunhada.</p></div>
+        <div class="box"><h4>Momento da noite</h4><p>Cada unidade vê, ao vivo, a sua margem real por horário.</p></div>
+      </div>
+    </div>
+
+    <div class="night" role="tabpanel" id="n2" aria-labelledby="t2" hidden>
+      <div>
+        <h3>Do cliente que fica ao cliente que chega.</h3>
+        <p class="sub">Objetivo: reduzir a evasão e transformar experiência em receita.</p>
+        <ol class="agenda">
+          <li><time>19h30</time><div>Oficina 2: calendário de relacionamento de 90 dias<span class="who">Keyner Luiz</span></div></li>
+          <li><time>20h15</time><div>Case da rede: o que a comunidade faz que o desconto não faz<span class="who">Franqueado convidado</span></div></li>
+          <li><time>20h25</time><div>Oficina 5: SWOT, matriz de risco e as três decisões dos próximos 90 dias<span class="who">Aline Monteiro</span></div></li>
+          <li><time>20h40</time><div>Remarketing e reativação: a base inativa é o lead mais barato que existe<span class="who">Jully Felici · FourFisio</span></div></li>
+          <li><time>21h30</time><div>Plataformas sem prejuízo: horário ocioso, trava do repasse e conversão em aluno matriculado<span class="who">Stella</span></div></li>
+          <li><time>22h00</time><div>Encerramento<span class="who">Aline Monteiro</span></div></li>
+        </ol>
+      </div>
+      <div class="side">
+        <div class="box"><h4>Você sai com</h4><p>Mensagens padrão, calendário de relacionamento e o plano de 90 dias da unidade.</p></div>
+        <div class="box"><h4>Momento da noite</h4><p>Mensagens prontas para usar na manhã seguinte.</p></div>
+      </div>
+    </div>
+
+    <div class="night" role="tabpanel" id="n3" aria-labelledby="t3" hidden>
+      <div>
+        <h3>Padrão VOLL e experiência do cliente.</h3>
+        <p class="sub">Objetivo: blindar a unidade contra a saída do instrutor. Assista com o seu time técnico.</p>
+        <ol class="agenda">
+          <li><time>19h30</time><div>O padrão existe para isso: por que a unidade que depende de uma pessoa é frágil<span class="who">Carol Rorato</span></div></li>
+          <li><time>20h15</time><div>Padronização da aula VOLL: acolhimento, avaliação, condução, encerramento e registro<span class="who">Marcella Contursi</span></div></li>
+          <li><time>21h00</time><div>O instrutor como agente de encantamento: retorno do faltante e comunicação de resultado<span class="who">Marcella Contursi</span></div></li>
+          <li><time>21h10</time><div>Oficina 4: checklist de padrão<span class="who">Marcella Contursi</span></div></li>
+          <li><time>21h30</time><div>Premiação das unidades do ano, sorteio dos três prêmios e encerramento<span class="who">Aline Monteiro</span></div></li>
+        </ol>
+      </div>
+      <div class="side">
+        <div class="box"><h4>Você sai com</h4><p>Checklist de padronização da unidade.</p></div>
+        <div class="box"><h4>Momento da noite</h4><p>Instrutores homenageados diante da rede inteira.</p></div>
+        <div class="box prize"><h4>Ao vivo</h4><p>Sorteio do Reform, do Cadillac e do acesso a um evento VOLL 2027.</p></div>
+      </div>
+    </div>
+
+    <div class="cta-row" style="margin-top:36px">
+      <a class="btn" href="#oferta">Quero estar nas três noites</a>
+      <span class="note">Inscrições até <strong>20/10, às 23h59</strong></span>
+    </div>
+  </div>
+</section>
+
+<hr class="rule">
+
+<!-- Palestrantes -->
+<section class="sec" id="palestrantes">
+  <div class="wrap">
+    <div class="eyebrow">Quem conduz</div>
+    <h2 class="dt"><i>Conteúdo e</i><b>palestrantes</b></h2>
+    <p class="lead">Especialistas que unem prática, visão de mercado e resultado. Gente que fala de pilates como negócio.</p>
+    <div class="speakers">
+      <article class="sp"><span class="night-tag">Noite 1</span><h3>Rafael Juliano</h3><p>O mercado de pilates em 2026: como se destacar</p></article>
+      <article class="sp"><span class="night-tag">Noite 1</span><h3>Henrique</h3><p>O mercado de pilates em 2026: como se destacar</p></article>
+      <article class="sp"><span class="night-tag">Noite 1</span><h3>Felipe Scher</h3><p>Precificação sem medo e Oficina 1: nova tabela de preços</p></article>
+      <article class="sp"><span class="night-tag">Noite 2</span><h3>Keyner Luiz</h3><p>Oficina 2: calendário de relacionamento de 90 dias</p></article>
+      <article class="sp"><span class="night-tag">Noite 2</span><h3>Jully Felici</h3><p>FourFisio · Remarketing e reativação da base inativa</p></article>
+      <article class="sp"><span class="night-tag">Noite 2</span><h3>Stella</h3><p>Plataformas de benefício sem prejuízo</p></article>
+      <article class="sp"><span class="night-tag">Noite 3</span><h3>Carol Rorato</h3><p>Por que a unidade que depende de uma pessoa é frágil</p></article>
+      <article class="sp"><span class="night-tag">Noite 3</span><h3>Marcella Contursi</h3><p>Padronização da aula VOLL e Oficina 4: checklist de padrão</p></article>
+      <article class="sp"><span class="night-tag">As três noites</span><h3>Aline Monteiro</h3><p>Diretora de Franquias · Estado da rede, plano de 90 dias e premiação</p></article>
+    </div>
+  </div>
+</section>
+
+<!-- Palco digital -->
+<section class="sec turn" id="palco">
+  <div class="wrap stage">
+    <div>
+      <div class="eyebrow">A experiência</div>
+      <h2 class="dt"><i>Conhecimento que</i><b>movimenta a rede</b></h2>
+      <p class="lead">Não é uma live comum. É um palco digital da VOLL, desenhado para você trabalhar enquanto assiste.</p>
+      <ul class="feat">
+        <li><b>Marca em tela cheia</b><span>Tema e contador de tempo visíveis o tempo todo.</span></li>
+        <li><b>Conteúdo e palestrante</b><span>Slides à esquerda, apresentador à direita, com nome e cargo.</span></li>
+        <li><b>QR dos materiais</b><span>Workbook e anexos de cada bloco sem sair da transmissão.</span></li>
+        <li><b>Chat e hashtag</b><span>#VOLLBUSINESSWEEK para trocar com a rede ao vivo.</span></li>
+      </ul>
+    </div>
+    <div class="screen" role="img" aria-label="Simulação da tela de transmissão: slide à esquerda, palestrante à direita, QR Code dos materiais e faixa de parceiros">
+      <div class="top"><img src="assets/logo-h.webp" alt=""><span>Ao vivo · Noite 1 · 20:15</span></div>
+      <div class="slide"><i>Precificação</i><b>sem medo</b><div class="bars"><span style="height:40%"></span><span style="height:62%"></span><span style="height:48%"></span><span style="height:88%"></span><span style="height:70%"></span></div></div>
+      <div class="cam"><div class="person"></div><div class="name">Felipe Scher · Precificação</div></div>
+      <div class="sbar"><div class="qr"></div><div class="sponsors">Parceiros da rede</div><span class="tagchip">#VOLLBUSINESSWEEK</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- Kit -->
+<section class="sec" id="kit">
+  <div class="wrap">
+    <div class="eyebrow">Experiência</div>
+    <h2 class="dt"><i>Chega antes</i><b>do evento, na sua unidade</b></h2>
+    <p class="lead">O kit do franqueado: a identidade da rede para vestir e as ferramentas de trabalho para as oficinas ao vivo.</p>
+    <div class="kit">
+      <figure class="big"><img src="assets/garrafa.webp" alt="Garrafa preta com o logo Business Week" width="1000" height="589"><figcaption>Garrafa</figcaption></figure>
+      <figure class="sq"><img src="assets/agenda.webp" alt="Agenda preta com o símbolo e o logo Business Week em verde" width="560" height="582"><figcaption>Agenda</figcaption></figure>
+      <figure class="sq"><img src="assets/camiseta.webp" alt="Camiseta preta com o logo Business Week" width="560" height="577"><figcaption>Camiseta</figcaption></figure>
+      <figure class="wide"><img src="assets/ecobag.webp" alt="Ecobag preta com o logo Business Week" width="760" height="775" style="object-position:50% 40%"><figcaption>Ecobag</figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<hr class="rule">
+
+<!-- Sorteio -->
+<section class="sec" id="sorteio">
+  <div class="wrap">
+    <div class="eyebrow">Sorteio ao vivo · 18/11</div>
+    <h2 class="dt"><i>Quem fica até o fim</i><b>concorre</b></h2>
+    <div class="raffle">
+      <div class="prize-card hl"><span class="lbl">Prêmio</span><h3>Reform Equipilates</h3></div>
+      <div class="prize-card hl"><span class="lbl">Prêmio</span><h3>Cadillac Equipilates</h3></div>
+      <div class="prize-card hl"><span class="lbl">Prêmio</span><h3>Acesso a um evento VOLL 2027</h3></div>
+    </div>
+    <ol class="rules">
+      <li>Presença ao vivo nas três noites</li>
+      <li>Entrega das oficinas do workbook</li>
+      <li>Participação no chat e nas enquetes</li>
+      <li>Diagnóstico pré-evento enviado no prazo</li>
+    </ol>
+    <p class="absent">Ausente não concorre.</p>
+  </div>
+</section>
+
+<!-- Oferta -->
+<section class="sec offer" id="oferta">
+  <div class="wrap">
+    <div class="eyebrow" style="text-align:center">Inscrições de 08 a 20/10</div>
+    <h2 class="dt center"><i>Seu investimento</i><b>na gestão de 2027</b></h2>
+    <div class="plans">
+      <article class="plan">
+        <h3>Essencial</h3>
+        <div class="price"><small>R$</small><strong>209</strong></div>
+        <ul>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M4 12l5 5L20 6"/></svg>Três noites ao vivo, 16 a 18/11</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M4 12l5 5L20 6"/></svg>Workbook com as 5 oficinas</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M4 12l5 5L20 6"/></svg>Kit do franqueado na sua unidade</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M4 12l5 5L20 6"/></svg>Participação no sorteio</li>
+          <li class="off"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M6 12h12"/></svg>Gravação das três noites</li>
+        </ul>
+        <a class="btn ghost js-buy" href="https://portal.grupovoll.com.br/?publicFormId=ff6d2c20-3a98-484c-9f4a-4965418b2352" target="_blank" rel="noopener" data-plan="essencial">Garantir o Essencial</a>
+      </article>
+      <article class="plan hl">
+        <span class="badge">Mais completo</span>
+        <h3>Completo</h3>
+        <div class="price"><small>R$</small><strong>229</strong></div>
+        <ul>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M4 12l5 5L20 6"/></svg>Tudo do plano Essencial</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M4 12l5 5L20 6"/></svg>Gravação das três noites</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M4 12l5 5L20 6"/></svg>Reveja as oficinas com a sua equipe</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M4 12l5 5L20 6"/></svg>Por apenas R$ 20 a mais</li>
+        </ul>
+        <a class="btn js-buy" href="https://portal.grupovoll.com.br/?publicFormId=ff6d2c20-3a98-484c-9f4a-4965418b2352" target="_blank" rel="noopener" data-plan="completo">Garantir o Completo</a>
+      </article>
+    </div>
+    <p class="fine">O valor não tem objetivo de lucro: cobre apenas os custos de produção do evento. Por menos do que uma mensalidade de aluno, você revisa preço, retenção, captação e padrão da sua unidade.</p>
+    <div class="cd cd-big" data-countdown></div>
+    <p class="close-line" id="close-line">Inscrições até 20/10, às 23h59. Sem prorrogação.</p>
+  </div>
+</section>
+
+<hr class="rule">
+
+<!-- FAQ -->
+<section class="sec" id="faq">
+  <div class="wrap">
+    <h2 class="dt center"><i>Perguntas</i><b>frequentes</b></h2>
+    <div class="faq">
+      <details><summary>Quem pode participar?</summary><p>Somente franqueados da rede VOLL Pilates. O evento substitui o encontro presencial de franqueados.</p></details>
+      <details><summary>Preciso assistir ao vivo?</summary><p>Para fazer as oficinas e concorrer ao sorteio, sim. Se a rotina apertar, o plano Completo inclui a gravação das três noites.</p></details>
+      <details><summary>Minha equipe pode assistir comigo?</summary><p>Na Noite 3, a recomendação é assistir com o time técnico: os instrutores serão homenageados diante da rede. As regras de acesso por unidade são enviadas junto com o link da transmissão.</p></details>
+      <details><summary>Quando recebo o kit?</summary><p>O kit é enviado para a sua unidade antes do evento, com código de rastreio.</p></details>
+      <details><summary>O que preciso preparar?</summary><p>Logo após a inscrição, você recebe o diagnóstico da unidade. Para a Noite 1, separe a tabela de preços atual, os custos fixos mensais, a ocupação por horário e o número de alunos ativos e inativos.</p></details>
+      <details><summary>Como funciona o sorteio?</summary><p>Concorre quem estiver presente nas três noites, entregar as oficinas do workbook, participar do chat e das enquetes e enviar o diagnóstico no prazo. O sorteio é feito ao vivo no encerramento, em 18/11.</p></details>
+      <details><summary>Haverá prorrogação das inscrições?</summary><p>Não. As inscrições encerram em 20/10, às 23h59, e a produção dos kits começa no dia seguinte.</p></details>
+    </div>
+  </div>
+</section>
+
+<!-- CTA final -->
+<section class="sec final">
+  <div class="ring" aria-hidden="true"></div>
+  <div class="wrap">
+    <h2 class="dt center"><i>Crescer</i><b>é avançar</b></h2>
+    <p>Em 20/10 a lista fecha. Quem estiver dentro planeja 2027 com método. Quem ficar de fora vai assistir à rede avançar.</p>
+    <a class="btn" href="#oferta">Quero minha unidade na Business Week</a>
+  </div>
+</section>
+</main>
+
+<!-- Rodapé -->
+<footer class="foot">
+  <div class="foot-in">
+    <div class="foot-grid">
+      <div>
+        <h4>VOLL Pilates</h4>
+        <p class="sig">Mais do que estúdios. Construímos histórias.</p>
+      </div>
+      <div>
+        <h4>Evento</h4>
+        <p>16, 17 e 18 de novembro de 2026<br>19h30 às 22h · online e ao vivo<br>Exclusivo para franqueados</p>
+      </div>
+      <div>
+        <h4>Dúvidas</h4>
+        <p>Fale com a equipe de franquias pela comunidade de franqueados ou pelo Portal do Franqueado.</p>
+      </div>
+    </div>
+    <img class="mark" src="assets/logo-h.webp" alt="" width="900" height="178">
+    <small>© 2026 Grupo VOLL · #VOLLBUSINESSWEEK</small>
+  </div>
+</footer>
+
+<div class="mobile-cta">
+  <div class="p">Até 20/10<strong>R$ 209</strong></div>
+  <a class="btn" href="#oferta">Garantir minha vaga</a>
+</div>
+
+<!-- Modal de compra: formulário oficial do portal -->
+<dialog class="buy" id="checkout" aria-labelledby="buy-title">
+  <div class="buy-head">
+    <img src="assets/logo-h.webp" alt="" width="900" height="178">
+    <h2 id="buy-title">Garantir minha vaga</h2>
+    <a href="https://portal.grupovoll.com.br/?publicFormId=ff6d2c20-3a98-484c-9f4a-4965418b2352" target="_blank" rel="noopener" aria-label="Abrir o formulário em nova aba">
+      <span>Abrir em nova aba</span>
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 4h6v6M20 4l-9 9M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5"/></svg>
+    </a>
+    <button class="buy-x" type="button" aria-label="Fechar">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>
+    </button>
+  </div>
+  <iframe title="Formulário de inscrição VOLL Business Week"></iframe>
+</dialog>
+
+<script>
+(function(){
+  /* Formulário oficial de compra (portal), aberto no modal pelos botões dos planos. */
+  var FORM_URL = "https://portal.grupovoll.com.br/?publicFormId=ff6d2c20-3a98-484c-9f4a-4965418b2352";
+  var DEADLINE = Date.parse("2026-10-20T23:59:59-03:00");
+
+  /* Contador regressivo */
+  var boxes = document.querySelectorAll("[data-countdown]");
+  function pad(n){ return String(n).padStart(2,"0"); }
+  function render(){
+    var ms = DEADLINE - Date.now();
+    if (ms <= 0){
+      boxes.forEach(function(b){ b.innerHTML = "<span>Encerradas</span>"; });
+      var l = document.getElementById("bar-label"); if (l) l.textContent = "Inscrições";
+      var c = document.getElementById("close-line"); if (c) c.textContent = "Inscrições encerradas.";
+      document.querySelectorAll(".js-buy").forEach(function(b){ b.setAttribute("aria-disabled","true"); b.removeAttribute("href"); b.textContent = "Inscrições encerradas"; });
+      return false;
+    }
+    var s = Math.floor(ms/1000), d = Math.floor(s/86400), h = Math.floor(s%86400/3600), m = Math.floor(s%3600/60), sec = s%60;
+    var html = "<span>"+d+"<small>dias</small></span><span>"+pad(h)+"<small>horas</small></span><span>"+pad(m)+"<small>min</small></span><span>"+pad(sec)+"<small>seg</small></span>";
+    boxes.forEach(function(b){ b.innerHTML = html; });
+    return true;
+  }
+  if (render()) { var t = setInterval(function(){ if(!render()) clearInterval(t); }, 1000); }
+
+  /* Botões de compra */
+  var modal = document.getElementById("checkout");
+  var frame = modal.querySelector("iframe");
+  document.querySelectorAll(".js-buy").forEach(function(btn){
+    btn.addEventListener("click", function(e){
+      if (!modal.showModal) return; /* navegador sem <dialog>: segue o link em nova aba */
+      e.preventDefault();
+      if (btn.getAttribute("aria-disabled") === "true") return;
+      if (!frame.getAttribute("src")) frame.src = FORM_URL;
+      modal.showModal();
+    });
+  });
+  modal.querySelector(".buy-x").addEventListener("click", function(){ modal.close(); });
+  modal.addEventListener("click", function(e){ if (e.target === modal) modal.close(); });
+
+  /* Abas da programação */
+  var tabs = Array.prototype.slice.call(document.querySelectorAll(".tab"));
+  function select(tab, focus){
+    tabs.forEach(function(t){
+      var on = t === tab;
+      t.setAttribute("aria-selected", on ? "true" : "false");
+      t.tabIndex = on ? 0 : -1;
+      document.getElementById(t.getAttribute("aria-controls")).hidden = !on;
+    });
+    if (focus) tab.focus();
+  }
+  tabs.forEach(function(t, i){
+    t.addEventListener("click", function(){ select(t); });
+    t.addEventListener("keydown", function(e){
+      if (e.key === "ArrowRight" || e.key === "ArrowLeft"){
+        e.preventDefault();
+        var n = tabs.at((i + (e.key === "ArrowRight" ? 1 : -1)) % tabs.length);
+        select(n, true);
+      }
+    });
+  });
+})();
+</script>
+
+</body></html>
